@@ -1,0 +1,188 @@
+.container
+{
+    display: flex;
+    flex-direction:row;    
+    background-image: url('images/cloudy.jpg') ;    
+    
+       
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:400px;
+    width:900px;
+    position:absolute;
+    right: 12%;
+    top: 20%;
+    box-shadow: 15px 10px 20px rgba(0, 0, 0, 0.479);    
+}
+
+
+*
+{
+    box-sizing: border-box;
+
+}
+
+
+#temp
+{
+    font-family: 'Poppins';
+    font-size: 50px;
+}
+
+body
+{
+background-color: rgba(42, 60, 72, 1)
+}
+
+.column1
+{
+    
+
+    width:50%;
+    background-color: rgba(53, 53, 53, 0.091);
+
+}
+
+.column2
+{
+    
+    height:100%;
+    width:50%;
+    background-color: rgba(0, 0, 0, 0.842);
+    fill-opacity: 300;
+    
+    
+
+}
+
+#city
+{
+    
+    background-color: transparent;
+    border: transparent;
+    border-bottom: solid rgba(237, 237, 237, 0.612) 1px;
+    width:300px;
+    height:30px;
+    padding-left: 100px;
+}
+
+::placeholder
+{
+    color: white;
+    font-family: "Poppins";
+}
+
+
+.cname
+{
+    font-family: 'Poppins';
+    color:white;
+    font-size: 10px;
+    position: relative;
+    left:50px;
+    top:25px;
+}
+.search
+{
+    position: absolute;
+    top: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    border-radius: 5px;
+    margin-left: 20px;
+    background-color: rgb(3, 3, 31);
+    border: solid rgba(237, 237, 237, 0.612) 1px;;
+}
+
+.head
+{
+    position: absolute;
+    left:470px;
+    top:43px;
+    
+}
+
+
+.search:hover{
+    background-color:rgb(2, 59, 61);
+}
+
+.main
+{
+    color:white;
+    position:relative;
+    top:300px;
+    display: flex;
+    left:50px;
+}
+
+.tempe,.cloud,.wind
+{
+   
+    font-family: 'Poppins';
+}
+
+ul{
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.543);
+    position: relative;
+    left:-30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+.line{
+    width:300px;
+    margin-left: 20px;
+    height:0.9px;
+    background-color: white;
+  
+}
+
+.icon
+{
+    position:absolute;
+    top:27px;
+    left:20px;
+}
+
+.one div
+{
+    color: white;
+}
+
+.one
+{
+display: flex;
+flex-direction: row;
+position:absolute;
+left:15px;
+}
+
+.weather
+{
+    position:relative;
+    top:30px;
+    left:65px;
+    font-family: "Poppins";
+}
+
+.write
+{
+font-family: 'Poppins';
+font-size: 13px;
+position:relative;
+left:20px;
+top:25px;
+font-weight:bolder;
+}
+
+.png
+{
+    position:relative;
+    left:40px;
+    top:15px;
+}
+
